@@ -1,5 +1,5 @@
 # Multimodal Continuous Visual Attention Mechanisms
-PyTorch implementation of the Deep Modular Co-Attention Networks (MCAN) with multimodal continuous attention. Follow this procedure to replicate our results.
+PyTorch implementation of the Deep Modular Co-Attention Networks (MCAN) with multimodal continuous attention. Follow this procedure to replicate the results reported in our paper [Multimodal Continuous Visual Attention Mechanisms](https://arxiv.org/abs/2104.03046).
 
 ## Requirements
 
