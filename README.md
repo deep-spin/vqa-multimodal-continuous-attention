@@ -24,3 +24,15 @@ python3 run.py --RUN='test' --CKPT_V=<VERSION> --CKPT_E=15 --M='mca' --n_iter=10
 ```
 and the result file is stored in ```results/result_test/result_run_<'PATH+random number' or 'VERSION+EPOCH'>.json```. The obtained result json file can be uploaded to [Eval AI](https://eval.ai/web/challenges/challenge-page/830/overview) to evaluate the scores on *test-dev* and *test-std* splits. ```--plot_attention='True'``` allows you to obtain the parameters of the continuous attention density (mixing coefficients, means, and covariance matrices of the mixture of Gaussians), useful for visualization purposes. ```--count='True'``` prints the number of examples for each K.
 
+## Citation
+
+```
+@InProceedings{Farinhas_2021_ICCV,
+    author    = {Farinhas, Ant\'onio and Martins, Andr\'e F. T. and Aguiar, Pedro M. Q.},
+    title     = {Multimodal Continuous Visual Attention Mechanisms},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2021},
+    pages     = {1047-1056}
+}
+```
